@@ -1,0 +1,76 @@
+:root {
+    --fundo-mensagem: #e5ddd5;
+    --borda: #dbdbdb;
+    --fundo-perfil: #eeeeee;
+    --fonte-principal: #4d4d4d;
+    --fonte-secundaria: #9b9b9b;
+    --fundo-contato: #ffffff;
+    --borda-contato: #f8f8f8;
+    --cabecalho-contato: #f8f8f8;
+    --relogio: #999999;
+    --fundo-badges: #09d261;
+}
+
+* {
+    box-sizing:border-box !important;
+}
+
+header, footer {
+    padding:5px !important;
+    height: 65px !important;
+}
+
+#search {
+    background-color: var(--cabecalho-contato);
+    min-height: 50px;
+}
+
+main {
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+.perfil__header {
+    background-color:var(--fundo-perfil);
+    border:1px solid var(--borda);
+}
+
+.perfil__header img,
+.mensagem_header img {
+    max-height: 60px;
+    margin-right:10px;
+}
+
+ 
+.list-group img {
+    max-height:50px;
+    margin-right:10px;
+}
+
+.list-group {
+    font-size:12px !important;
+}
+
+.perfil__contatos {
+    background-color:var(--fundo-contato);
+}
+
+.perfil__tempo {
+    margin-bottom:0;
+}
+
+
+.mensagem__header {
+    background-color:var(--fundo-perfil);
+    border:1px solid var(--borda);
+    padding:15px;
+    
+}
+
+.mensagem__mensagem {
+    background-color: var(--fundo-mensagem);
+}
+
+.mensagem__boxDigitarMensagem {
+    background-color:var(--fundo-perfil);
+}
